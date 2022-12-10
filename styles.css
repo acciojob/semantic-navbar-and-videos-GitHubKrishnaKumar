@@ -1,6 +1,41 @@
-
 /* Your CSS Code here. */
-h1{
-    color:red;
-    background-color: gray;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid navy;
+    background-color: khaki;
+  }
+  
+  li {
+    float: left;
+  
+  }
+  li:hover{
+    background-color: green;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:white;
+  }
+  li a {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+
+  }
+
+  section{
+    /* margin-top: -10px; */
+    float: left;
+    padding: 8px;
+  }
+  section video{
+    height: 350px;
+    width: 425px;
+    /* margin-right: 10px; */
+  }
